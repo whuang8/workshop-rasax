@@ -22,4 +22,15 @@
 * goodbye
   - utter_goodbye
 
-
+## existing rasa user 2
+* greet
+  -utter_greet
+* name{"name":"Tom"}
+  - utter_ask_location
+* location{"location":"Berlin"}
+  - utter_used_rasa
+* affirm+subscribe
+  - utter_send_blog
+  - action_subscribe
+* goodbye
+  - utter_goodbye
